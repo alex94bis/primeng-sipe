@@ -1220,6 +1220,7 @@ export class Calendar implements AfterViewInit,OnInit,OnDestroy,ControlValueAcce
                     this.overlayVisible = false;
                 }
                 
+				console.log("chiusura popup");
                 this.closeOverlay = true;
                 this.dateClick = false;
                 this.cd.detectChanges();
